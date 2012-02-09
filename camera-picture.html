@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Camera (Picture)</title>
+</head>
+<body>
+  <div id="camera-picture" data-role="page">
+    <div data-role="header">
+      <h1>Camera (Picture)</h1>
+    </div><!-- data-role="header" -->
+
+    <div data-role="content">
+      <p>
+        <button id="take-picture">Take Picture</button>
+        <button id="take-editable-picture">Take Editable Picture</button>
+        <button id="from-library">From Photo Library</button>
+        <button id="from-album">From Photo Album</button>
+      </p>
+
+      <p>
+        <label for="source">Plain data:</label>
+        <textarea id="source"></textarea>
+      </p>
+
+      <p>
+        <img id="picture" style="display: none;" src="" />
+      </p>
+    </div><!-- data-role="content" -->
+
+    <script src="assets/js/camera-picture.js"></script>
+  </div><!-- #camera-picture -->
+</body>
+</html>
