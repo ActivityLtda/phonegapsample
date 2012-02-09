@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+  xmlns:gap="http://phonegap.com/ns/1.0"
+  id="com.viavansi"
+  version="0.1">
+
+  <!-- Info -->
+  <name>PhoneGap Sample</name>
+	<description>
+	    PhoneGap API Sample
+	</description>
+	<author href="http://viavansi.com" email="contacto@viavansi.com">
+	    Viavansi
+	</author>
+
+	<!-- Preferences -->
+	<preference name="orientation" value="default" />
+	<preference name="phonegap-version" value="1.4.1" />
+
+  <!-- Features -->
+  <feature name="http://api.phonegap.com/1.0/camera"/>
+  <feature name="http://api.phonegap.com/1.0/media"/>
+</widget>
