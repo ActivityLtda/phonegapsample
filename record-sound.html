@@ -12,6 +12,20 @@
     </div><!-- data-role="header" -->
 
     <div data-role="content">
+      <p>
+        <button id="record-audio">Record Sound</button>
+      </p>
+
+      <p>
+        <label for="uri">Sound URI:</label>
+        <textarea id="uri"></textarea>
+      </p>
+
+      <div id="audio-wrapper" style="display: none;">
+        <audio id="audio" controls="controls" style="width: 100%;">
+          <source type="audio/amr" src="" />
+        </audio>
+      </div>
     </div><!-- data-role="content" -->
 
     <script src="assets/js/record-sound.js"></script>
