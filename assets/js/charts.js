@@ -14,18 +14,6 @@
   $('#charts').bind('pageinit', function(event) {
     var $page = $(this);
 
-    //
-    //     var r = Raphael("chart");
-    //
-    //     pie = r.piechart(
-    //       160, 160, 100,
-    //       [55, 20, 13, 32, 5, 1, 2, 10],
-    //       {
-    //         legend: [55, 20, 13, 32, 5, 1, 2, 10],
-    //         legendpos: "west"
-    //       }
-    //     );
-
     var pie2 = new RGraph.Pie('pie2', [12,29,45,17,7]); // Create the pie object
     pie2.Set('chart.gutter.left', 45);
     pie2.Set('chart.colors', ['red', 'pink', '#6f6', 'blue', 'yellow']);
