@@ -12,6 +12,22 @@
   <script src="phonegap.js"></script>
   <script src="assets/lib/jquery-1.6.4.min.js"></script>
 
+  <!--
+  <script src="assets/lib/graphael/raphael-min.js"></script>
+  <script src="assets/lib/graphael/g.raphael-min.js"></script>
+  <script src="assets/lib/graphael/g.bar-min.js"></script>
+  <script src="assets/lib/graphael/g.dot-min.js"></script>
+  <script src="assets/lib/graphael/g.line-min.js"></script>
+  <script src="assets/lib/graphael/g.pie-min.js"></script>
+  -->
+
+  <script src="assets/lib/rgraph/RGraph.common.core.js"></script>
+  <script src="assets/lib/rgraph/RGraph.common.tooltips.js"></script>
+  <script src="assets/lib/rgraph/RGraph.common.effects.js"></script>
+  <script src="assets/lib/rgraph/RGraph.common.key.js"></script>
+  <script src="assets/lib/rgraph/RGraph.pie.js"></script>
+  <script src="assets/lib/rgraph/RGraph.bar.js"></script>
+
   <!-- App -->
   <script src="assets/js/app.js"></script>
 
@@ -19,7 +35,7 @@
   <script src="assets/lib/jquery-mobile/jquery.mobile.min.js"></script>
 </head>
 <body>
-  <div id="index" data-role="page">
+  <div id="index" data-role="page" data-add-back-btn="false">
     <div data-role="header">
       <h1>PhoneGap Sample</h1>
     </div><!-- data-role="header" -->
@@ -29,6 +45,7 @@
         <li><a href="camera-picture.html">Camera (Pictures)</a></li>
         <li><a href="camera-video.html">Camera (Video)</a></li>
         <li><a href="record-sound.html">Record sound</a></li>
+        <li><a href="charts.html">Charts</a></li>
       </ul>
     </div><!-- data-role="content" -->
   </div><!-- #index -->
