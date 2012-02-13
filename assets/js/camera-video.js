@@ -27,7 +27,7 @@
           $uri.text(path);
           $page.find('source').attr('src', 'file://'+ path);
 
-          if (device.name.match(/iPhone|iPad/)) {
+          if (device.platform.match(/iPhone|iPad/)) {
             $page.find('video').attr('src', 'file://'+ path);
           }
         }
