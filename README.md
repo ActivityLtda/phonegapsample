@@ -1,4 +1,4 @@
-# PhoneGap Sample App v0.3
+# PhoneGap Sample App v0.4
 
 Built using:
 
@@ -6,6 +6,7 @@ Built using:
 * jQuery: 1.6.4
 * jQuery Mobile: 1.0.1
 * RGraph: 2012-01-13
+* jQuery-ui-map: 3.0-beta
 
 ## Camera (pictures)
 
@@ -28,4 +29,8 @@ Built using:
 
 ## Twitter and Facebook update
 
-* This are just some external links to Twitter and Facebook. As today, using PhoneGap Build to compile with PhoneGap 1.4.1, external links doesn't open with native browser on Android and BlackBerry.
+* This are just some external links to Twitter and Facebook. As today, using PhoneGap Build to compile with PhoneGap 1.4.1, external links doesn't open with native browser on Android and BlackBerry
+
+## Google Maps
+
+* Maps are shown with Google Maps through [jQuery-ui-map plugin](http://code.google.com/p/jquery-ui-map/ "jquery-ui-map - Google map v3 plugin for jQuery and jQuery Mobile - Google Project Hosting") and works fine on iOS, Android an BlackBerry
