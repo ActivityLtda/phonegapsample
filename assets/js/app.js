@@ -8,9 +8,8 @@
   e-Mail:   jghurtado@viavansi.com
 --------------------------------------------------------------------------- */
 
-/* =GLOBALS
+/* =FRAMEWORK CONFIG
 --------------------------------------------------------------------------- */
-
 $(function() {
 
   /* =|Global jQuery Mobile config
@@ -29,3 +28,20 @@ $(function() {
     $(event.target).remove();
   });
 });
+
+/* =APP MAIN OBJECT
+--------------------------------------------------------------------------- */
+var app = {
+
+  /* =|openExternalLink(url)
+   *  - url (String): URL to be opened
+  ------------------------------------------------------------------------- */
+  openExternalLink : function(url) {
+    if (device.platform.match(/Android/)) {
+      navigator.app.loadUrl(url);
+    } else {
+      window.location.href = url;
+    }
+  }
+
+};
