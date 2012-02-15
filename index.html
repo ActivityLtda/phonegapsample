@@ -7,6 +7,7 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="assets/lib/jquery-mobile/jquery.mobile.min.css" />
+  <link rel="stylesheet" href="assets/css/custom.css" />
 
   <!-- Libs -->
   <script src="phonegap.js"></script>
@@ -42,6 +43,14 @@
 
         <li><a id="twitter" target="_blank" href="http://twitter.com/share?url=http://www.example.com/&amp;text=Sample tweet">Sample share on Twitter</a></li>
         <li><a id="facebook" target="_blank" href="http://www.facebook.com/sharer.php?u=http://www.example.com/&amp;t=Sample text">Sample share on Facebook</a></li>
+
+        <li data-role="fieldcontain" class="small">
+          <label for="slider2">Sample re-styled switch</label>
+          <select name="slider2" id="slider2" data-role="slider">
+            <option value="off">Off</option>
+            <option value="on">On</option>
+          </select>
+        </li>
       </ul>
 
       <script src="assets/js/index.js"></script>

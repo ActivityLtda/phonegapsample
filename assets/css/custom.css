@@ -1,0 +1,10 @@
+li.small label.ui-slider {
+  display: inline-block;
+  margin: 0.5em 0;
+}
+
+li.small div.ui-slider-switch {
+  float: right;
+  margin-right: 0;
+  width: 30%;
+}
